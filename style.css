@@ -1,0 +1,60 @@
+.picture {
+  position: relative;
+  overflow: hidden;
+  width: 403px;
+  height: 403px;
+  background-color: #d9d9d9;
+}
+
+.pircture__big-circle {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: -90px;
+  left: -90px;
+  border-radius: 50%;
+  background-color: #248456;
+}
+
+.pircture__circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 137px;
+  right: 76px;
+  border-radius: 50%;
+  background-color: #0ca565;
+  z-index: 1;
+}
+
+.pircture__triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0 109px 100px;
+  border-color: transparent transparent #ce3607 transparent;
+}
+
+.pircture__rectangle {
+  position: absolute;
+  width: 312px;
+  height: 49px;
+  top: 153px;
+  left: 46px;
+  background-color: #1c3f9b;
+  transform: rotate(45deg);
+}
+
+.pircture__ellipse {
+  position: absolute;
+  width: 302px;
+  height: 80px;
+  top: 270px;
+  left: 50%;
+  background-color: #920fbf;
+  border-radius: 25px;
+  transform: translateX(-50%);
+}
